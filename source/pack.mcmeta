@@ -1,6 +1,8 @@
 {
   "pack": {
+    "description": "Friends Server — 무기 모델팩",
     "pack_format": 97,
-    "description": "Friends Server — 무기 모델팩"
+    "min_format": 97,
+    "max_format": 97
   }
 }
