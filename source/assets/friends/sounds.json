@@ -1,0 +1,22 @@
+{
+  "gun.shoot": {
+    "category": "player",
+    "sounds": [{"name": "friends:gun/shoot", "volume": 1.0, "attenuation_distance": 48}]
+  },
+  "gun.reload_start": {
+    "category": "player",
+    "sounds": [{"name": "friends:gun/reload_start", "volume": 0.9}]
+  },
+  "gun.reload_end": {
+    "category": "player",
+    "sounds": [{"name": "friends:gun/reload_end", "volume": 0.9}]
+  },
+  "gun.empty": {
+    "category": "player",
+    "sounds": [{"name": "friends:gun/empty", "volume": 0.8}]
+  },
+  "gun.hit": {
+    "category": "player",
+    "sounds": [{"name": "friends:gun/hit", "volume": 0.7}]
+  }
+}
