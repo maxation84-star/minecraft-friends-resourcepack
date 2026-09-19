@@ -3,13 +3,17 @@
     "category": "player",
     "sounds": [{"name": "friends:gun/shoot", "volume": 1.0, "attenuation_distance": 48}]
   },
+  "gun.burst": {
+    "category": "player",
+    "sounds": [{"name": "friends:gun/burst", "volume": 1.0, "attenuation_distance": 48}]
+  },
   "gun.reload_start": {
     "category": "player",
-    "sounds": [{"name": "friends:gun/reload_start", "volume": 0.9}]
+    "sounds": [{"name": "friends:gun/reload_start", "volume": 1.0}]
   },
   "gun.reload_end": {
     "category": "player",
-    "sounds": [{"name": "friends:gun/reload_end", "volume": 0.9}]
+    "sounds": [{"name": "friends:gun/reload_end", "volume": 1.0}]
   },
   "gun.empty": {
     "category": "player",
