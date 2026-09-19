@@ -1,50 +1,155 @@
 {
-  "gun.shoot": {
-    "category": "player",
-    "sounds": [{"name": "friends:gun/shoot", "volume": 1.0, "attenuation_distance": 48}]
-  },
-  "gun.burst": {
-    "category": "player",
-    "sounds": [{"name": "friends:gun/burst", "volume": 1.0, "attenuation_distance": 48}]
-  },
-  "gun.ricochet": {
-    "category": "player",
-    "sounds": [
-      {"name": "friends:gun/ric1", "volume": 0.85, "attenuation_distance": 40},
-      {"name": "friends:gun/ric2", "volume": 0.85, "attenuation_distance": 40},
-      {"name": "friends:gun/ric3", "volume": 0.85, "attenuation_distance": 40}
-    ]
-  },
-  "gun.reload_start": {
-    "category": "player",
-    "sounds": [{"name": "friends:gun/reload_start", "volume": 1.0}]
-  },
-  "gun.reload_end": {
-    "category": "player",
-    "sounds": [{"name": "friends:gun/reload_end", "volume": 1.0}]
-  },
-  "gun.empty": {
-    "category": "player",
-    "sounds": [{"name": "friends:gun/empty", "volume": 0.8}]
-  },
-  "gun.hit": {
-    "category": "player",
-    "sounds": [{"name": "friends:gun/hit", "volume": 0.7}]
-  },
-  "weapon.swing": {
-    "category": "player",
-    "sounds": [{"name": "friends:weapon/swing", "volume": 0.9}]
-  },
-  "weapon.heavy": {
-    "category": "player",
-    "sounds": [{"name": "friends:weapon/heavy", "volume": 1.0, "attenuation_distance": 32}]
-  },
-  "weapon.cast": {
-    "category": "player",
-    "sounds": [{"name": "friends:weapon/cast", "volume": 0.9}]
-  },
-  "weapon.bowshot": {
-    "category": "player",
-    "sounds": [{"name": "friends:weapon/bowshot", "volume": 0.9}]
-  }
+    "gun.shoot":  {
+                      "category":  "player",
+                      "sounds":  [
+                                     {
+                                         "name":  "friends:gun/shoot",
+                                         "volume":  1.0,
+                                         "attenuation_distance":  48
+                                     }
+                                 ]
+                  },
+    "gun.burst":  {
+                      "category":  "player",
+                      "sounds":  [
+                                     {
+                                         "name":  "friends:gun/burst",
+                                         "volume":  1.0,
+                                         "attenuation_distance":  48
+                                     }
+                                 ]
+                  },
+    "gun.ricochet":  {
+                         "category":  "player",
+                         "sounds":  [
+                                        {
+                                            "name":  "friends:gun/ric1",
+                                            "volume":  0.85,
+                                            "attenuation_distance":  40
+                                        },
+                                        {
+                                            "name":  "friends:gun/ric2",
+                                            "volume":  0.85,
+                                            "attenuation_distance":  40
+                                        },
+                                        {
+                                            "name":  "friends:gun/ric3",
+                                            "volume":  0.85,
+                                            "attenuation_distance":  40
+                                        }
+                                    ]
+                     },
+    "gun.reload_start":  {
+                             "category":  "player",
+                             "sounds":  [
+                                            {
+                                                "name":  "friends:gun/reload_start",
+                                                "volume":  1.0
+                                            }
+                                        ]
+                         },
+    "gun.reload_end":  {
+                           "category":  "player",
+                           "sounds":  [
+                                          {
+                                              "name":  "friends:gun/reload_end",
+                                              "volume":  1.0
+                                          }
+                                      ]
+                       },
+    "gun.empty":  {
+                      "category":  "player",
+                      "sounds":  [
+                                     {
+                                         "name":  "friends:gun/empty",
+                                         "volume":  0.8
+                                     }
+                                 ]
+                  },
+    "gun.hit":  {
+                    "category":  "player",
+                    "sounds":  [
+                                   {
+                                       "name":  "friends:gun/hit",
+                                       "volume":  0.7
+                                   }
+                               ]
+                },
+    "weapon.swing":  {
+                         "category":  "player",
+                         "sounds":  [
+                                        {
+                                            "name":  "friends:weapon/swing",
+                                            "volume":  0.9
+                                        }
+                                    ]
+                     },
+    "weapon.heavy":  {
+                         "category":  "player",
+                         "sounds":  [
+                                        {
+                                            "name":  "friends:weapon/heavy",
+                                            "volume":  1.0,
+                                            "attenuation_distance":  32
+                                        }
+                                    ]
+                     },
+    "weapon.cast":  {
+                        "category":  "player",
+                        "sounds":  [
+                                       {
+                                           "name":  "friends:weapon/cast",
+                                           "volume":  0.9
+                                       }
+                                   ]
+                    },
+    "weapon.bowshot":  {
+                           "category":  "player",
+                           "sounds":  [
+                                          {
+                                              "name":  "friends:weapon/bowshot",
+                                              "volume":  0.9
+                                          }
+                                      ]
+                       },
+    "gun.pistol":  {
+                       "category":  "player",
+                       "sounds":  [
+                                      {
+                                          "name":  "friends:gun/pistol",
+                                          "volume":  1,
+                                          "attenuation_distance":  40
+                                      }
+                                  ]
+                   },
+    "gun.smg":  {
+                    "category":  "player",
+                    "sounds":  [
+                                   {
+                                       "name":  "friends:gun/smg",
+                                       "volume":  1,
+                                       "attenuation_distance":  40
+                                   }
+                               ]
+                },
+    "gun.shotgun":  {
+                        "category":  "player",
+                        "sounds":  [
+                                       {
+                                           "name":  "friends:gun/shotgun",
+                                           "volume":  1,
+                                           "attenuation_distance":  64
+                                       }
+                                   ]
+                    },
+    "gun.sniper":  {
+                       "category":  "player",
+                       "sounds":  [
+                                      {
+                                          "name":  "friends:gun/sniper",
+                                          "volume":  1,
+                                          "attenuation_distance":  96
+                                      }
+                                  ]
+                   }
 }
