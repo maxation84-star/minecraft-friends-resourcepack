@@ -1,6 +1,1 @@
-{
-  "model": {
-    "type": "minecraft:model",
-    "model": "friends:item/rifle_ads7"
-  }
-}
+{"model":{"type":"minecraft:model","model":"friends:item/rifle_ads7"}}
