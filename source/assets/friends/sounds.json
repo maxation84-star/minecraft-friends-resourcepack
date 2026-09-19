@@ -151,5 +151,41 @@
                                           "attenuation_distance":  96
                                       }
                                   ]
-                   }
+                   },
+    "gun.reload_pistol":  {
+                              "category":  "player",
+                              "sounds":  [
+                                             {
+                                                 "name":  "friends:gun/rl_pistol",
+                                                 "volume":  1
+                                             }
+                                         ]
+                          },
+    "gun.reload_smg":  {
+                           "category":  "player",
+                           "sounds":  [
+                                          {
+                                              "name":  "friends:gun/rl_smg",
+                                              "volume":  1
+                                          }
+                                      ]
+                       },
+    "gun.reload_shotgun":  {
+                               "category":  "player",
+                               "sounds":  [
+                                              {
+                                                  "name":  "friends:gun/rl_shotgun",
+                                                  "volume":  1
+                                              }
+                                          ]
+                           },
+    "gun.reload_sniper":  {
+                              "category":  "player",
+                              "sounds":  [
+                                             {
+                                                 "name":  "friends:gun/rl_sniper",
+                                                 "volume":  1
+                                             }
+                                         ]
+                          }
 }
